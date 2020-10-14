@@ -1,0 +1,11 @@
+cmd = input()
+if cmd.capitalize() == 'HELP':
+         print('''Start - Start the car.
+         Stop - The car has been turned off.
+         Quit - Quit the game.''')
+elif cmd.capitalize() == 'START':
+        print('Your car has started.')
+elif cmd.capitalize() == 'STOP':
+        print("Your car's engines have been turned off.")
+elif cmd.capitalize() == 'QUIT':
+    breakpoint()
